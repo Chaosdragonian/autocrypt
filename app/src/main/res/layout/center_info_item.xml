@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="item"
+            type="com.dlgustjr02124.autocrypt.data.model.NetworkResponse.Data" />
+    </data>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/center_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{item.address}"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/center_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{item.centerName}"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/facility_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{item.facilityName}"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{item.phoneNumber}"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/update_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{item.updatedAt}"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

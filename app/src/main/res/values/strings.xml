@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">autocrypt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_button_click">한번 더 누르면 종료됩니다.</string>
+</resources>
